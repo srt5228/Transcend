@@ -1,0 +1,15 @@
+{
+  "name": "transcend",
+  "version": "1.0.0",
+  "description": "Transcend Habit Tracking App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Scott Thompson, Andrew Tiu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
