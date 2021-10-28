@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react';
 
 
-function Dashboard() {
+function Journal() {
 
     return (
         <>
-            <h1>HOME PAGE</h1>
+            <h1>Users Journal Page</h1>
         </>
     );
 };
 
-export default Dashboard;
+export default Journal;
