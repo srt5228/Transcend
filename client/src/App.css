@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  width: 15%;
+  width: 20%;
   display: block;
   color: cadetblue;
   border: 2px solid #B0C4DE;
@@ -23,6 +23,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
+
 }
 
 a:hover {
@@ -60,6 +61,7 @@ button {
 
 button:hover {
   background-color: #B0C4DE;
+  cursor:pointer;
 }
 
 table {

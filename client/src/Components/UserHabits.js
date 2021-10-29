@@ -1,55 +1,55 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 
-
-function FocusTimer() {
+function UserHabits() {
 
     return (
         <>
             <Link to="/"><b>Home</b></Link>
-            <h1>Focus Timer Page</h1>
-            <h3>Current Focus Timers in the Transcend App</h3>
-            <table class="table table-hover">
+            <h1>User Habits Page</h1>
+            <h3>Current Habits that are being Tracked by which Users</h3>
+                <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>timerID</th>
+                        <th>instanceID</th>
                         <th>userID</th>
-                        <th>timeElapsed</th>
-                        <th>timeStamp</th>
-                        <th></th>
+                        <th>habitID</th>
+                        <th>schedule</th>
+                        <th>Modify</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
                         <td>1</td>
-                        <td>360</td>
-                        <td>2021-10-28 09:16:30</td>
+                        <td>1</td>
+                        <td>Mon: 0 Tue: 0 Wed: 0 Thu: 0 Fri: 0 Sat: 0</td>
                         <td><button>Edit</button>    <button>Delete</button> </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Add Focus Timer</h3>
+            <h3>Add User Habit</h3>
             <form onsubmit="return false">
                 <div class="form-group">
-                    <label class="form-label" for="userID">User Id</label>
+                    <label class="form-label" for="userID">User ID</label>
                     <br></br>
                     <input id="userID" class="form-control" type="number"></input>
                     <br></br>
-                    <label class="form-label" for="timeElapsed">Time Elapsed (in Seconds)</label>
+                    <label class="form-label" for="habitID">Habit ID</label>
                     <br></br>
-                    <input id="timeElapsed" class="form-control" type="number"></input>
+                    <input id="journalText" class="form-control" type="number"></input>
                     <br></br>
-                    <label class="form-label" for="timeStamp">Time Stamp</label>
+                    <label class="form-label" for="text">Schedule</label>
                     <br></br>
-                    <input id="timeStamp" class="form-control" type="datetime-local"></input>
+                    <input id="timeStamp" class="form-control" type="text"></input>
                     <br></br>
                     <button>Submit</button>
                 </div>
             </form>
+        
         </>
     );
 };
 
-export default FocusTimer;
+export default UserHabits;

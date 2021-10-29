@@ -2,36 +2,37 @@ import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 
 
-function Habits() {
+function LogEventTypes() {
 
     return (
         <>
             <Link to="/"><b>Home</b></Link>
-            <h1>Habits Page</h1>
-            <h3>Current Habits in Transcend</h3>
+            <h1>Log Event Types Page</h1>
+            <h3>Current Log Event Types in Transcend</h3>
+
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>habitID</th>
-                        <th>habitName</th>
+                        <th>eventID</th>
+                        <th>eventName</th>
                         <th>Modify</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Lifting Weights</td>
+                        <td>Logged into Transcend</td>
                         <td><button>Edit</button>    <button>Delete</button> </td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Add Habit</h3>
+            <h3>Add Log Event Type</h3>
             <form onsubmit="return false">
                 <div class="form-group">
-                    <label class="form-label" for="email">Habit Name</label>
+                    <label class="form-label" for="eventName">Event Name</label>
                     <br></br>
-                    <input id="email" class="form-control" type="text"></input>
+                    <input id="eventName" class="form-control" type="text"></input>
                     <br></br>
                     <button>Submit</button>
                 </div>
@@ -40,4 +41,4 @@ function Habits() {
     );
 };
 
-export default Habits;
+export default LogEventTypes;

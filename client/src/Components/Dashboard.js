@@ -6,13 +6,17 @@ function Dashboard() {
 
     return (
         <>
-            <h1>HOME PAGE</h1>
-            <p>This will be a users first stop, from here they will be able to navigate to any of the pages below
-                except for AdminDashboard which will only be accessible by the DBA.</p>
-            <Link to="/habits">Habits Page</Link>
-            <Link to="/journal">Journal Page</Link>
-            <Link to="/focustimer">Focus Timer Page</Link>
-            <Link to="/AdminDashboard">Admin Page</Link>
+            <h1>Transcend Home Page</h1>
+            <p>Welcome to the Transcend Habit Tracker Application Database!</p>
+            <Link to="/users"><b>Users Page</b> <br></br> View and manage users</Link>
+            <Link to="/habits"><b>Habits Page</b> <br></br> View and manage habits</Link>
+            <Link to="/focustimer"><b>Focus Timers Page</b> <br></br> View and manage focus timers</Link>
+            <Link to="/journalentries"><b>Journal Entries Page</b> <br></br> View and manage journal entries</Link>
+            <Link to="/logeventtypes"><b>Log Event Types Page</b> <br></br> View and manage user log event types</Link>
+            <Link to="/userhabits"><b>User Habits Page</b> <br></br> View and manage the habits of users</Link>
+            <Link to="/userlogs"><b>User Logs Page</b> <br></br> View and manage the log events of users</Link>
+
+
         </>
     );
 };
