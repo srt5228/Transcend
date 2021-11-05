@@ -8,7 +8,7 @@ function Habits() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>Habits Page</h1>
-            <h3>Current Habits in Transcend</h3>
+            <h3>Habits - Add, Edit, and Delete Transcend's global habits below</h3>
             <table class="table table-hover">
                 <thead>
                     <tr>

@@ -7,7 +7,7 @@ function UserHabits() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>User Habits Page</h1>
-            <h3>Current Habits that are being Tracked by which Users</h3>
+            <h3>Table Containing All of the Actively Tracked Habits by Transcend Users</h3>
                 <table class="table table-hover">
                 <thead>
                     <tr>
@@ -15,6 +15,7 @@ function UserHabits() {
                         <th>userID</th>
                         <th>habitID</th>
                         <th>schedule</th>
+                        <th>customHabitName</th>
                         <th>Modify</th>
                     </tr>
                 </thead>
@@ -24,6 +25,7 @@ function UserHabits() {
                         <td>1</td>
                         <td>1</td>
                         <td>Mon: 0 Tue: 0 Wed: 0 Thu: 0 Fri: 0 Sat: 0</td>
+                        <td>NULL</td>
                         <td><button>Edit</button>    <button>Delete</button> </td>
                     </tr>
                 </tbody>
@@ -43,6 +45,10 @@ function UserHabits() {
                     <label class="form-label" for="text">Schedule</label>
                     <br></br>
                     <input id="timeStamp" class="form-control" type="text"></input>
+                    <br></br>
+                    <label className="form-label" htmlFor="text">Custom Habit Name (OPTIONAL - Will set User ID to NULL)</label>
+                    <br/>
+                    <input id="customHabit" class="form-control" type="text"></input>
                     <br></br>
                     <button>Submit</button>
                 </div>

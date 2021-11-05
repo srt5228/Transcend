@@ -9,7 +9,7 @@ function Users() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>Users</h1>
-            <h3>Current Users of the Transcend App</h3>
+            <h3>Add, Delete, and Search for Users Below</h3>
             <table class="table table-hover">
                 <thead>
                     <tr>

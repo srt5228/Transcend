@@ -8,7 +8,7 @@ function JournalEntries() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>Users Journal Page</h1>
-            <h3>Current Journal Entries in Transcend</h3>
+            <h3>User Journal Entries - Add, Edit, and Delete User Journal Entries Below</h3>
             <table class="table table-hover">
                 <thead>
                     <tr>

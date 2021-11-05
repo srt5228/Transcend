@@ -8,7 +8,7 @@ function FocusTimer() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>Focus Timer Page</h1>
-            <h3>Current Focus Timers in the Transcend App</h3>
+            <h3>Focus Timer Table, Add, Edit or Delete Timer Records Below</h3>
             <table class="table table-hover">
                 <thead>
                     <tr>

@@ -8,7 +8,7 @@ function LogEventTypes() {
         <>
             <Link to="/"><b>Home</b></Link>
             <h1>Log Event Types Page</h1>
-            <h3>Current Log Event Types in Transcend</h3>
+            <h3>Transcent Log Event Types - Add, Edit, and Delete Types Below</h3>
 
             <table class="table table-hover">
                 <thead>
