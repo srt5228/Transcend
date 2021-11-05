@@ -13,7 +13,9 @@
   "dependencies": {
     "create-react-app": "^4.0.3",
     "express": "^4.17.1",
-    "heroku": "^7.59.1",
+    "heroku": "^7.59.1"
+  },
+  "engines": {
     "node": "^14.17.3"
   }
 }
